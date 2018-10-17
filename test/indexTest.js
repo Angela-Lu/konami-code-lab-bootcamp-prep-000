@@ -30,7 +30,6 @@ describe("index.js", () => {
       
       for (let i = 0, l = codes.length; i < l; i++) {
         triggerKeyDown(codes[i]);
-        console.log(codes.length)
       }
       expect(spy.called).to.equal(true)
       expect(spy.callCount).to.equal(1)
