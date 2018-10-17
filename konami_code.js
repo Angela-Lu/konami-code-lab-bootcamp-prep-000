@@ -16,7 +16,7 @@ let index = 0
 document.addEventListener('keydown', (e)=>{init(e.key)}, false)
 
 function init(e) {
- if(e == codes[index]) {
+ if(e === codes[index].toString()) {
    index++
    if(index === codes.length) {
      alert("You win")
@@ -25,7 +25,5 @@ function init(e) {
  } else {
    index = 0
  }
- 
- console.log(index)
 }
 
