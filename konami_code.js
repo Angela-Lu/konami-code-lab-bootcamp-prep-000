@@ -16,7 +16,7 @@ let index = 0
 document.addEventListener('keypress', (e)=>{init(e.key)}, false)
 
 function init(e) {
- if(e.key === codes[index]) {
+ if(e === codes[index]) {
    index++
    if (index === codes.length) {
      alert("You win")
