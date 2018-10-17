@@ -13,14 +13,13 @@ const codes = [
 
 let index = 0
 
-document.addEventListener('keydown', (e)=>{init(e)}, false)
+document.addEventListener('keydown', (e)=>{init(e.key)}, false)
 
 function init(e) {
  if(e.key === codes[index]) {
    index++
    if (index === codes.length) {
      alert("You win")
-     
      index = 0
  }
  } else {
