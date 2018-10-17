@@ -14,6 +14,7 @@ const codes = [
 let index = 0
 
 function init(e) {
+  document.
  const key = e.key
  if(key === codes[index]) {
    index++
