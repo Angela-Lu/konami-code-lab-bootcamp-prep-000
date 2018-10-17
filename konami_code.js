@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0
 
-document.addEventListener('keydown', (e)=>{init(e.key)}, false)
+document.addEventListener('keypress', (e)=>{init(e.key)}, false)
 
 function init(e) {
  if(e.key === codes[index]) {
