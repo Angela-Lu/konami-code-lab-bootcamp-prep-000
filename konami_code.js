@@ -25,5 +25,7 @@ function init(e) {
  } else {
    index = 0
  }
+ 
+ console.log(index)
 }
 
