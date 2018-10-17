@@ -13,8 +13,6 @@ const codes = [
 
 let index = 0
 
-document.body.AddEventListener('keydown', this.init())
-
 function init(e) {
  const key = e.key
  if(key === codes[index]) {
@@ -29,4 +27,4 @@ function init(e) {
  }
 }
 
-init()
+document.body.AddEventListener('keydown', this.init())
