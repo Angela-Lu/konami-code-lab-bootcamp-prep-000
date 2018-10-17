@@ -27,4 +27,4 @@ function init(e) {
  }
 }
 
-document.body.AddEventListener('keydown', init(this))
+document.AddEventListener('keydown', init(this))
