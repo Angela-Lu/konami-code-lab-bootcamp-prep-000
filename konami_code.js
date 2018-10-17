@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0
 
-document.AddEventListener('keydown', this.init())
+document.body.AddEventListener('keydown', this.init())
 
 function init(e) {
  const key = e.key
