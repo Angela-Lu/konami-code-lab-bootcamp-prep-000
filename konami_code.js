@@ -13,6 +13,7 @@ const codes = [
 
 let index = 0
 
+document.
 function init(e) {
  const key = e.key
  if(key === codes[index]) {
