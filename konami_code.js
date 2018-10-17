@@ -26,3 +26,5 @@ function init(e) {
    index = 0
  }
 }
+
+init()
